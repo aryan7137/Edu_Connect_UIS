@@ -1,3 +1,10 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Edu Connect UIS</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/poppinsbold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/poppinslight</string>
+    <string name="semibold" tools:ignore="ReferenceType">@font/poppinssemibold</string>
+    <string name="reqular" tools:ignore="ReferenceType">@font/poppinsregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
