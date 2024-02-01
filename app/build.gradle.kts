@@ -1,5 +1,8 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services") version "4.4.0"
+
+
 }
 
 android {
@@ -32,6 +35,10 @@ dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
+    implementation ("com.github.jitpack:gradle-simple:master-SNAPSHOT")
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.2")
+    implementation(platform("com.google.firebase:firebase-bom:32.7.1"))
+    implementation("com.google.firebase:firebase-analytics")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.navigation:navigation-fragment:2.7.6")
     implementation("androidx.navigation:navigation-ui:2.7.6")
